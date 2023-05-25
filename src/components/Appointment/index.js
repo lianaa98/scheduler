@@ -87,7 +87,6 @@ export default function Appointment(props) {
           message="Are you sure you would like to delete?"
           onCancel={back}
           onConfirm={destroy}
-          data-testid="confirm"
         />
       )}
       {mode === ERROR_SAVE && (
